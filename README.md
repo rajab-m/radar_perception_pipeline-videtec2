@@ -6,7 +6,7 @@ The pipeline was originally implemented inside a ROS2 node and has been refactor
 
 ---
 
-## Project Overview
+Project Overview
 
 Within the broader Videtec2 project, this radar perception pipeline is designed for intersection monitoring and roadside perception using stationary radars. The main goal is to process radar data reliably in environments where camera-based systems are less effective, such as complex traffic intersections, changing weather, varying illumination, and long-range detection scenarios.
 
@@ -31,8 +31,6 @@ pedestrian
 cyclist
 vehicle
 truck
-
----
 
 ## Pipeline Architecture
 
