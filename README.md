@@ -31,7 +31,7 @@ pedestrian
 cyclist
 vehicle
 truck
----
+
 
 ## Pipeline Architecture
 
