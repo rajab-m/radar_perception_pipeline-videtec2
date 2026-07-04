@@ -356,8 +356,6 @@ Contains:
 
 * sensor identifiers
 * radar parameters
-* sensor positions
-* transformations
 
 Example:
 
@@ -366,7 +364,7 @@ Example:
     "sensors":{
         "1":{
             "RadarParam":{
-                "RadarCube":"East"
+                "RadarCube":"17"
             }
         }
     }
@@ -453,19 +451,20 @@ Results displayed
 
 ---
 
-## Future Improvements
+## Complete Project (Advanced Extensions)
 
-Potential future extensions:
+The full system architecture (not fully included in this repository for confidentiality and complexity reasons) may also include:
 
-* multi-radar support
-* packet loss simulation
-* asynchronous processing
-* multi-threaded inference
-* real-time visualization
-* GPU optimization
-* radar tracking
-* sensor fusion integration
-* deployment inside Docker containers
+- Multi-radar support  
+- Real-time visualization of radar data  
+- GPU optimization for ONNX inference  
+- Radar object tracking (temporal association)  
+- Sensor fusion (radar + CLS)  
+- ROS2 ecosystem integration
+- Sensor calibration, positions, and transformation matrices
+- NTP synchronization
+
+These components are typically used in production-level autonomous perception stacks and are modularly compatible with this pipeline design.
 
 ---
 
@@ -479,4 +478,4 @@ The simulator was designed to replicate the packet structure of the original rad
 
 ## License
 
-Specify project license here.
+MIT License
