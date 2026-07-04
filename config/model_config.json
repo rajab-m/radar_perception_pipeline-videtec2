@@ -1,0 +1,16 @@
+{
+  "Radar": "IMST_east",
+  "model_parameters": {
+    "Classes": ["Pedestrian", "Car", "Cyclist", "Truck"],
+    "Source": "Radar data",
+    "RD_map_scaler": [[4504.60037322] , [2205.6765121]],
+    "RCS_scaler": [[38.24368825], [4.6549905]],
+    "Speed_scaler": [[-16.59275521], [21.1684974]], 
+    "Range_scaler": [[46.39763996], [27.66953936]],  
+    "Azimuth_scaler": [[-11.09906696], [20.6870548]]
+  },
+  "cropping_thresholds": {
+  "range_threshold": 15,
+  "doppler_threshold": 20
+  }
+}
